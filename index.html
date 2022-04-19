@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Weight Convert</title>
+       
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       
+</head>
+<body>
+      <div class="container">
+            <h1 class="text-center mt-5">Weight Convert</h1>
+
+            <!--Convert Button-->
+             <div class="row gx-5 mt-5">
+                  <div class="col-4 text-center">
+                        <button id="gram" class="btn btn-primary">Gram To Others</button>
+                  </div>
+                  <div class="col-4 text-center">
+                        <button id="kilogram" class="btn btn-secondary">Kilogram To Others</button>
+                  </div>
+                  <div class="col-4 text-center">
+                        <button id="pounds" class="btn btn-success">Pounds To Others</button>
+                  </div>
+                </div>
+      
+
+                <!--Converter-->
+            <div class="mt-5">
+                  <input type="number" class="form-control " >
+            </div>
+
+            <div class="mt-3 bg-primary p-3 rounded-3">
+                  <h4 id="header1">Kilogram::</h4>
+                  <div id="output1"></div>
+            </div>
+
+            <div class="mt-2 bg-info p-3 rounded-3">
+                  <h4 id="header2">Pounds::</h4>
+                  <div id="output2"></div>
+            </div>
+      </div>
+  
+      
+
+      <script src="app.js"></script>
+</body>
+</html>
