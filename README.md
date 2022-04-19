@@ -8,4 +8,4 @@
   <li><b>Javascript</b></li>
 </ul>
 <br>
-<h3>Demo::</h3>hhttps://mdmitulhossen.github.io/weightConverter/
+<h3>Demo::</h3>https://mdmitulhossen.github.io/weightConverter/
